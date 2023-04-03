@@ -3,9 +3,9 @@ void main()
 {
     char a[100],b[100];
     int i,j,n;
-    printf("Enter the length of the string: ");
+    printf("Enter the length of the string : ");
     scanf("%d",&n);
-    printf("Enter the string: ");
+    printf("Enter the string to be reversed : ");
     for(i=0;i<=n;i++)
       scanf("%c",&a[i]);
     i=n;
@@ -14,7 +14,7 @@ void main()
         b[j] = a[i];
         i-- ;
     }
-    printf("The reverse string is ");
+    printf("The reverse string is  :");
     for(i=0;i<n;i++)
      {printf("%c",b[i]);
       
